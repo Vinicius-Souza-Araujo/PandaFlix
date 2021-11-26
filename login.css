@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    transition: 1s;    
+    
+}
+
+body{
+    background: #494F56;
+}
+
+/*Organização do header */
+header{
+    background-color: #302F31;
+    
+    
+    width: 100%;
+    
+   
+     }
+
+
+
+#Menu{
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   grid-column-gap: 20px;
+   border-left: solid 15px #302F31;
+   border-right: solid 20px #302F31;
+    border-bottom: solid 20px #302F31;
+    border-top: solid 10px #302F31;
+    text-align: center;
+    background: #302F31;
+    
+   
+}
+#Menu a:hover{
+    color:#6ce5e8;   
+    font-size: 20px;
+    
+}
+
+/*Organização do main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    
+}
+
+.Container-Principal{
+    display: flex;
+    flex-direction: column; 
+    width: 40%;
+}
+
+
+
+
+.Container-Formulario{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px ;
+    background-color: #302F31;
+    width: 100%;
+    padding-top:20px;
+    margin-bottom: 50px;
+    
+}
+.Titulo-Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom:5px ;
+}
+.Formulario{
+  margin-left: 20% ;
+    
+}
+
+
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    color:black;
+}
+
+
+.Container-Formulario2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px ;
+    background-color: #302F31;
+    width: 100%;
+    padding-top:20px ;
+    
+}
+.Titulo-Formulario2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom:5px ;
+}
+.Formulario2{
+  margin-left: 20% ;
+    
+}
+
+#submit{
+    background: #494F56;
+    color: #fff;
+    font-family: arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px black; 
+}
+
+#sumit:hover{
+ 
+    cursor: pointer;
+    
+}
+
+
+@media (max-width: 900px){
+    .Container-Principal{
+        display: flex;
+        flex-direction: column; 
+        width: 80%;
+    }
+
+
+    .Titulo-Formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        padding-bottom:5px ;
+        font-size: 10px;
+    }
+
+    .Titulo-Formulario2{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        padding-bottom:5px ;
+        font-size: 10px;
+    }
+        
+    }   
+
+/*Organização do Footer */
+footer{
+    background-color: #302F31;
+    width: 100%;
+    
+    
+}
+.copyright{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    border: solid 40px #302F31;
+    
+    
+    
+}

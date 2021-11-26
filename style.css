@@ -1,0 +1,125 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    transition: 1s;    
+    
+}
+
+body{
+    background: #494F56;
+    width: 100%;
+}
+
+/*Organização do header */
+header{
+    background-color: #302F31;
+    
+    
+    width: 100%;
+    
+   
+     }
+
+
+
+#Menu{
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   grid-column-gap: 20px;
+   border-left: solid 15px #302F31;
+   border-right: solid 20px #302F31;
+    border-bottom: solid 20px #302F31;
+    border-top: solid 10px #302F31;
+    text-align: center;
+    background: #302F31;
+    
+   
+}
+#Menu a:hover{
+    color:#6ce5e8;   
+    font-size: 20px;
+    
+}
+
+
+
+
+/*Organização do main */
+main{
+    border-left: solid 15px #494F56;   
+}
+
+ h1{
+    text-align: center;
+}
+
+h2{
+    border-bottom: solid 15px #494F56;   
+}
+
+.grid-pai{
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-filho{
+    margin-left: 15px ;
+}
+
+@media (max-width: 700px){
+    
+    .grid-pai{
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-filho{
+       
+        margin-top: 15px;
+        margin-left: 0 ;
+       
+    }
+
+    .Titulo-Catalogo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.selecao:hover{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 0.5s;
+            cursor: pointer;
+    border: solid 5px #6ce5e8;
+}
+
+/*Organização do Footer */
+footer{
+    background-color: #302F31;
+    width: 100%;
+    
+}
+.copyright{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    border: solid 40px #302F31;
+    
+    
+    
+}
+
